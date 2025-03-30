@@ -3,36 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Customer Review</title>
 </head>
 <body>
 
     <div>
         <form action="">
-            <legend>
-                <label for="name">Name</label><input type="text" id="name">
-                <label for="phone">Phone</label><input type="text" id="phone">
-                <label for="email">Email</label><input type="text" id="email">
-                <label for="address">Address</label><textarea name="address" id="address"></textarea>
-            </legend>
+            <fieldset>
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" name="custumer-name">
+
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="custumer-phone">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="custumer-email">
+
+                <label for="address">Address</label>
+                <textarea id="address" name="custumer-address"></textarea>
+
+            </fieldset>
 
         </form>
     </div>
     <div>
         <form action="">
-            <!-- Correct info after reseach -->
-            <legend>
-                <label for="skincare">Do you use skincare products?</label>
-                <input type="radio" id="" name=""><label></label><label for="">Yes</label><input type="radio" id="" name=""><label></label><label for="">No</label>
-            </legend>
+            <fieldset>
+                <legend>Do you use skincare products?</legend>
 
-            <!-- Correct info after reseach -->
-            <legend>
-                <label for="skincare">Is having good skin important to you?</label>
-                <input type="radio" id="" name=""><label></label><label for="">Yes</label><input type="radio" id="" name=""><label></label><label for="">No</label>
-            </legend>
+                <input type="radio" id="yes" name="skincare-use" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="skincare-use" value="no">
+                <label for="no">No</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Is having good skin important to you?</legend>
+                
+                <input type="radio" id="yes" name="skin-importance" value="yes">
+                <label for="">Yes</label>
+                
+                <input type="radio" id="no" name="skin-importance" value="no">
+                <label for="no">No</label>
+           
+            </fieldset>
         </form>
     </div>
     
 </body>
 </html>
+
