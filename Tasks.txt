@@ -1,0 +1,35 @@
+Change name of file and all associated
+    Will build exact replica of mockup instead of changing it to a marriage questioniere
+
+What should we put for the form attributes?
+
+Make sure to make this repository public.
+
+Should I make the whole project one form? I have it as two now do to the contact info up top being in the header. But if the form was being sent to a server, that seems as though it would be confusing. (Research best option)
+
+----------------
+1st Things 1st
+----------------
+-Match bkgd color of header
+
+-Match Font
+
+-Create "top right" icon
+
+-Match header layout
+
+===========================================
+====================DONE===================
+===========================================
+Research:
+    <label> Research attributes and values
+    <input type="radio"> attributes and values
+
+Find out why <legend> doesn't have "borderline" around it
+
+
+
+
+            <!-- ******************************** -->
+            <!-- REPLACE/FILL VALUES -->
+            <!-- ******************************** -->
