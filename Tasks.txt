@@ -1,12 +1,3 @@
-Change name of file and all associated
-    Will build exact replica of mockup instead of changing it to a marriage questioniere
-
-What should we put for the form attributes?
-
-Make sure to make this repository public.
-
-Should I make the whole project one form? I have it as two now do to the contact info up top being in the header. But if the form was being sent to a server, that seems as though it would be confusing. (Research best option)
-
 ----------------
 1st Things 1st
 ----------------
@@ -17,15 +8,31 @@ Should I make the whole project one form? I have it as two now do to the contact
 -Create "top right" icon
 
 -Match header layout
+    -Use <label>&<input> wrapped in a <div> in header; and <div> wrapping a <form> in the main.
+
+
+    
 
 ===========================================
 ====================DONE===================
 ===========================================
+
+Should I make the whole project one form? I have it as two now do to the contact info up top being in the header. But if the form was being sent to a server, that seems as though it would be confusing. (Research best option)>>>>don't use multiple. It would be unnecessarily complicated. Use <label>&<input> wrapped in a <div> in header; and <div> wrapping a <form> in the main.
+
+Make sure to make this repository public.
+
+What should we put for the form attributes? (nothing right now. this is a "clone of mockup" project)
+
+Change name of file and all associated
+    Will build exact replica of mockup instead of changing it to a marriage questioniere
+
+
 Research:
     <label> Research attributes and values
     <input type="radio"> attributes and values
 
 Find out why <legend> doesn't have "borderline" around it
+
 
 
 
