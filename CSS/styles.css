@@ -6,32 +6,32 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: auto;
-}
-
 header {
     background-color: hsl(44, 59%, 87%);
     width: 100%;
 }
 
+body {
+    margin: auto;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* ================================= 
+  Form Elements
+==================================== */
+
+form {
+    font-family: Tahoma, sans-serif;
+}
+
+
 
 /* ================================= 
   Base Layout Styles
 ==================================== */
-
-/* ---- Navigation ---- */
-
-/* 
-
-.name 
-.main-nav 
-.name a,
-.main-nav a 
-.main-nav a:hover  
-
-*/
-
 
 
 /* ---- Layout Containers ---- */
@@ -40,7 +40,9 @@ header {
 
 
 /* ---- Page Elements ---- */
-
+input + label:not(label[for="phone"]) {
+    font-weight: bold;
+}
 
 
 

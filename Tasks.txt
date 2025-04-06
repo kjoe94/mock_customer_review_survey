@@ -1,8 +1,7 @@
 ----------------
 1st Things 1st
 ----------------
-
--Match Font
+*** Find correct selector to all labels after inputs but not in header to be bold. CSS line 43 is a correct attempt; The "Phone" selector works, but duplicating it is not working for "Email" and "Address".
 
 -Create "top right" icon
 
@@ -15,6 +14,10 @@
 ===========================================
 ====================DONE===================
 ===========================================
+
+-Match bkgd color of header
+
+-Match Font
 
 Should I make the whole project one form? I have it as two now do to the contact info up top being in the header. But if the form was being sent to a server, that seems as though it would be confusing. (Research best option)>>>>don't use multiple. It would be unnecessarily complicated. Use <label>&<input> wrapped in a <div> in header; and <div> wrapping a <form> in the main.
 
