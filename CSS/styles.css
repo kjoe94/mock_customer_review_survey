@@ -45,9 +45,10 @@ form {
 
 /* ---- Selectors ---- */
 
-input + label:not(label[for^="phone"]),
-input + label:not(label[for^="email"]),
-input + label:not(label[for^="address"]) {
+input + label:not(label[for="phone"]),
+input + label:not(label[for="email"]),
+input + label:not(label[for="address"]) 
+{
     font-weight: bold;
 }
 
