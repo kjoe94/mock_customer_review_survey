@@ -40,7 +40,14 @@ form {
 
 
 /* ---- Page Elements ---- */
-input + label:not(label[for="phone"]) {
+
+
+
+/* ---- Selectors ---- */
+
+input + label:not(label[for^="phone"]),
+input + label:not(label[for^="email"]),
+input + label:not(label[for^="address"]) {
     font-weight: bold;
 }
 
