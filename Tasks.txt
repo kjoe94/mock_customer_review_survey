@@ -1,7 +1,6 @@
 ----------------
 1st Things 1st
 ----------------
--Match bkgd color of header
 
 -Match Font
 

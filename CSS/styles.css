@@ -1,0 +1,53 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    background-color: hsl(44, 59%, 87%);
+    width: 100%;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+/* 
+
+.name 
+.main-nav 
+.name a,
+.main-nav a 
+.main-nav a:hover  
+
+*/
+
+
+
+/* ---- Layout Containers ---- */
+
+
+
+
+/* ---- Page Elements ---- */
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
