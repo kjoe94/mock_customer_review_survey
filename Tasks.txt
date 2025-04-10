@@ -1,8 +1,6 @@
 ----------------
 1st Things 1st
 ----------------
-*** Find correct selector to all labels after inputs but not in header to be bold. CSS line 43 is a correct attempt; The "Phone" selector works, but duplicating it is not working for "Email" and "Address".
-
 -Create "top right" icon
 
 -Match header layout
@@ -14,6 +12,8 @@
 ===========================================
 ====================DONE===================
 ===========================================
+
+*** Find correct selector to all labels after inputs but not in header to be bold. CSS line 43 is a correct attempt; The "Phone" selector works, but duplicating it is not working for "Email" and "Address".
 
 -Match bkgd color of header
 
