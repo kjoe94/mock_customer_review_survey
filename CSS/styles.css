@@ -1,3 +1,4 @@
+
 /* ================================= 
   Base Element Styles
 ==================================== */
@@ -9,6 +10,7 @@
 header {
     background-color: hsl(44, 59%, 87%);
     width: 100%;
+    position: relative;
 }
 
 body {
@@ -17,7 +19,10 @@ body {
 
 h1 {
     font-family: "Cormorant Garamond", serif;
+    margin: 0;
 }
+
+
 
 /* ================================= 
   Form Elements
@@ -36,12 +41,37 @@ form {
 
 /* ---- Layout Containers ---- */
 
+#logo {
+  /* COMBINE AFTER RESEARCH "BACKGROUND" PROPERTY: CSS-TRICKS */
+    background-color: black;
+  /* COMBINE AFTER RESEARCH "BACKGROUND" PROPERTY: CSS-TRICKS */
+  
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: hsl(44, 59%, 87%);
+    justify-content: center;
+   
+  }
+  
+#logo-inc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 75px;
+  bottom: 0;
+}
 
 
 
 /* ---- Page Elements ---- */
 
-
+#logo-inc>p {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
 
 /* ---- Selectors ---- */
 
